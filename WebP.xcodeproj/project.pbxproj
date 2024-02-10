@@ -1724,6 +1724,7 @@
 				);
 				PRODUCT_NAME = webp;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libwebp";
 			};
 			name = Debug;
@@ -1742,6 +1743,7 @@
 				);
 				PRODUCT_NAME = webp;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libwebp";
 			};
 			name = Release;
@@ -1802,6 +1804,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -1860,6 +1863,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1888,11 +1892,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.ainam.WebP.ios;
 				PRODUCT_NAME = WebP;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Sources";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libwebp";
 			};
 			name = Debug;
@@ -1916,10 +1922,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.ainam.WebP.ios;
 				PRODUCT_NAME = WebP;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_INCLUDE_PATHS = "$(SRCROOT)/Sources";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libwebp";
 			};
 			name = Release;
