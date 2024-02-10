@@ -331,7 +331,7 @@
 				DEVELOPMENT_TEAM = 2Q7H62SFG3;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.ainam.iOS-Example";
@@ -350,7 +350,7 @@
 				DEVELOPMENT_TEAM = 2Q7H62SFG3;
 				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.ainam.iOS-Example";
