@@ -1,7 +1,7 @@
 import Foundation
 import CWebP
 
-#if os(macOS) || os(iOS)
+#if os(macOS) || os(iOS) || os(tvOS)
 import CoreGraphics
 
 extension WebPDecoder {
@@ -39,7 +39,7 @@ extension WebPDecoder {
 }
 #endif
 
-#if os(iOS)
+#if os(iOS) || os(tvOS)
 import UIKit
 
 extension WebPDecoder {

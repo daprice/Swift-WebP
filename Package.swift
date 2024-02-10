@@ -7,6 +7,7 @@ let package = Package(
     name: "WebP",
     platforms: [
         .iOS(SupportedPlatform.IOSVersion.v8),
+		.tvOS(SupportedPlatform.TVOSVersion.v12),
         .macOS(SupportedPlatform.MacOSVersion.v10_13)
     ],
     products: [
