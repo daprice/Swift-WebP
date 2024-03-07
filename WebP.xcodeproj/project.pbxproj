@@ -280,7 +280,6 @@
 		FD05ADF423384D3C002057E2 /* WebPImageInspector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1A7A5123319F93000C9647 /* WebPImageInspector.swift */; };
 		FD05ADF52338AB82002057E2 /* WebPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1A7A532331A0A1000C9647 /* WebPError.swift */; };
 		FD16BB1821E6E87600F80360 /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCC9EB41E42440000D914B4 /* libwebp.a */; };
-		FD16BB1921E6E88300F80360 /* libwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCC9EBC1E42445100D914B4 /* libwebp.a */; };
 		FD16BB1D21E6F91A00F80360 /* WebPDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16BB1A21E6F91A00F80360 /* WebPDecoder.swift */; };
 		FD16BB1E21E6F91A00F80360 /* WebPDecoder+Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16BB1B21E6F91A00F80360 /* WebPDecoder+Platform.swift */; };
 		FD16BB1F21E6F91A00F80360 /* WebPDecoderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD16BB1C21E6F91A00F80360 /* WebPDecoderConfig.swift */; };
@@ -624,7 +623,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD16BB1921E6E88300F80360 /* libwebp.a in Frameworks */,
 				BD6180101DB2C2C300AB0C54 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1752,6 +1750,7 @@
 				PRODUCT_NAME = webp;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libwebp";
 			};
 			name = Debug;
@@ -1771,6 +1770,7 @@
 				PRODUCT_NAME = webp;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2,3";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/libwebp";
 			};
 			name = Release;
