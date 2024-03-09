@@ -248,15 +248,11 @@
 		BDCC9FC41E4246FD00D914B4 /* encode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDCC9BEA1E42407800D914B4 /* encode.h */; };
 		BDCC9FC81E4246FD00D914B4 /* types.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDCC9BEE1E42407800D914B4 /* types.h */; };
 		D95E1BE71D88D63400F94976 /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D95E1BDD1D88D63300F94976 /* WebP.framework */; };
-		E96C84BD2B7823960093D4F9 /* sharpyuv_gamma.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84AE2B7823960093D4F9 /* sharpyuv_gamma.c */; };
 		E96C84BE2B7823960093D4F9 /* sharpyuv_gamma.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84AE2B7823960093D4F9 /* sharpyuv_gamma.c */; };
-		E96C84BF2B7823960093D4F9 /* sharpyuv_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84AF2B7823960093D4F9 /* sharpyuv_sse2.c */; };
 		E96C84C02B7823960093D4F9 /* sharpyuv_sse2.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84AF2B7823960093D4F9 /* sharpyuv_sse2.c */; };
-		E96C84C12B7823960093D4F9 /* sharpyuv.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84B12B7823960093D4F9 /* sharpyuv.c */; };
 		E96C84C22B7823960093D4F9 /* sharpyuv.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84B12B7823960093D4F9 /* sharpyuv.c */; };
 		E96C84C32B7823960093D4F9 /* sharpyuv_csp.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C84B22B7823960093D4F9 /* sharpyuv_csp.h */; };
 		E96C84C42B7823960093D4F9 /* sharpyuv_csp.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C84B22B7823960093D4F9 /* sharpyuv_csp.h */; };
-		E96C84C52B7823960093D4F9 /* sharpyuv_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84B32B7823960093D4F9 /* sharpyuv_neon.c */; };
 		E96C84C62B7823960093D4F9 /* sharpyuv_neon.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84B32B7823960093D4F9 /* sharpyuv_neon.c */; };
 		E96C84C72B7823960093D4F9 /* sharpyuv_dsp.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C84B42B7823960093D4F9 /* sharpyuv_dsp.h */; };
 		E96C84C82B7823960093D4F9 /* sharpyuv_dsp.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C84B42B7823960093D4F9 /* sharpyuv_dsp.h */; };
@@ -266,11 +262,8 @@
 		E96C84CC2B7823960093D4F9 /* sharpyuv_gamma.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C84B72B7823960093D4F9 /* sharpyuv_gamma.h */; };
 		E96C84CD2B7823960093D4F9 /* sharpyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C84B82B7823960093D4F9 /* sharpyuv.h */; };
 		E96C84CE2B7823960093D4F9 /* sharpyuv.h in Headers */ = {isa = PBXBuildFile; fileRef = E96C84B82B7823960093D4F9 /* sharpyuv.h */; };
-		E96C84CF2B7823960093D4F9 /* sharpyuv_csp.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84B92B7823960093D4F9 /* sharpyuv_csp.c */; };
 		E96C84D02B7823960093D4F9 /* sharpyuv_csp.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84B92B7823960093D4F9 /* sharpyuv_csp.c */; };
-		E96C84D12B7823960093D4F9 /* sharpyuv_cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84BA2B7823960093D4F9 /* sharpyuv_cpu.c */; };
 		E96C84D22B7823960093D4F9 /* sharpyuv_cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84BA2B7823960093D4F9 /* sharpyuv_cpu.c */; };
-		E96C84D32B7823960093D4F9 /* sharpyuv_dsp.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84BC2B7823960093D4F9 /* sharpyuv_dsp.c */; };
 		E96C84D42B7823960093D4F9 /* sharpyuv_dsp.c in Sources */ = {isa = PBXBuildFile; fileRef = E96C84BC2B7823960093D4F9 /* sharpyuv_dsp.c */; };
 		FD027E4C20A8F859004634B2 /* common_sse41.h in Headers */ = {isa = PBXBuildFile; fileRef = FD027E4920A8F859004634B2 /* common_sse41.h */; };
 		FD027E4F20A8F893004634B2 /* upsampling_sse41.c in Sources */ = {isa = PBXBuildFile; fileRef = FD027E4B20A8F859004634B2 /* upsampling_sse41.c */; };
@@ -1540,19 +1533,12 @@
 				FD16BB1F21E6F91A00F80360 /* WebPDecoderConfig.swift in Sources */,
 				FD4BB75E237A2F68004536EB /* CGImage+Util.swift in Sources */,
 				FD8F55512177FDF500322BA2 /* WebPEncoder.swift in Sources */,
-				E96C84D32B7823960093D4F9 /* sharpyuv_dsp.c in Sources */,
-				E96C84BF2B7823960093D4F9 /* sharpyuv_sse2.c in Sources */,
-				E96C84CF2B7823960093D4F9 /* sharpyuv_csp.c in Sources */,
 				FD16BB1D21E6F91A00F80360 /* WebPDecoder.swift in Sources */,
 				FD16BB1E21E6F91A00F80360 /* WebPDecoder+Platform.swift in Sources */,
 				FD8F554C2177FDF500322BA2 /* WebPEncoderConfig.swift in Sources */,
-				E96C84C52B7823960093D4F9 /* sharpyuv_neon.c in Sources */,
-				E96C84C12B7823960093D4F9 /* sharpyuv.c in Sources */,
 				FD8F554F2177FDF500322BA2 /* InternalRawRepresentable.swift in Sources */,
-				E96C84BD2B7823960093D4F9 /* sharpyuv_gamma.c in Sources */,
 				FD951FCD237A298000CA850E /* WebPEncoder+CGImage.swift in Sources */,
 				FD1A7A542331A0A1000C9647 /* WebPError.swift in Sources */,
-				E96C84D12B7823960093D4F9 /* sharpyuv_cpu.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
