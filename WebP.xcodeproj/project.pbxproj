@@ -128,9 +128,9 @@
 		BDCC9F321E4244B900D914B4 /* rescaler_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCC9BE11E42407800D914B4 /* rescaler_utils.c */; };
 		BDCC9F331E4244B900D914B4 /* thread_utils.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCC9BE31E42407800D914B4 /* thread_utils.c */; };
 		BDCC9F341E4244B900D914B4 /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = BDCC9BE51E42407800D914B4 /* utils.c */; };
-		BDCC9F361E4244E300D914B4 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC9BE81E42407800D914B4 /* decode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDCC9F381E4244E300D914B4 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC9BEA1E42407800D914B4 /* encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BDCC9F3C1E4244E300D914B4 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC9BEE1E42407800D914B4 /* types.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDCC9F361E4244E300D914B4 /* decode.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC9BE81E42407800D914B4 /* decode.h */; };
+		BDCC9F381E4244E300D914B4 /* encode.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC9BEA1E42407800D914B4 /* encode.h */; };
+		BDCC9F3C1E4244E300D914B4 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = BDCC9BEE1E42407800D914B4 /* types.h */; };
 		BDCC9F3D1E42450D00D914B4 /* decode.h in Copy Files */ = {isa = PBXBuildFile; fileRef = BDCC9BE81E42407800D914B4 /* decode.h */; };
 		BDCC9F3F1E42450D00D914B4 /* encode.h in Copy Files */ = {isa = PBXBuildFile; fileRef = BDCC9BEA1E42407800D914B4 /* encode.h */; };
 		BDCC9F431E42450D00D914B4 /* types.h in Copy Files */ = {isa = PBXBuildFile; fileRef = BDCC9BEE1E42407800D914B4 /* types.h */; };
@@ -1014,9 +1014,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDCC9F361E4244E300D914B4 /* decode.h in Headers */,
 				E96C84C82B7823960093D4F9 /* sharpyuv_dsp.h in Headers */,
 				E96C84CE2B7823960093D4F9 /* sharpyuv.h in Headers */,
+				BDCC9F361E4244E300D914B4 /* decode.h in Headers */,
 				BDCC9F381E4244E300D914B4 /* encode.h in Headers */,
 				BDCC9F3C1E4244E300D914B4 /* types.h in Headers */,
 				E96C84C42B7823960093D4F9 /* sharpyuv_csp.h in Headers */,
@@ -1819,6 +1819,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1880,6 +1881,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
